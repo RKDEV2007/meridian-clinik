@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Отзывы пациентов о частной клинике Меридиан Медикал.">
+  <title>Отзывы | Меридиан Медикал</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item"><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__sep">/</span>
+          <span class="breadcrumbs__current">Отзывы</span>
+        </nav>
+        <h1 class="page-hero__title">Что говорят пациенты</h1>
+        <p class="section-desc" style="margin-bottom: 0; max-width: 36rem;">Отзывы тех, кто уже побывал в Меридиан Медикал. Мы гордимся высокой удовлетворённостью и продолжаем держать планку.</p>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="stats-grid reveal" style="max-width: 32rem; margin: 0 auto;">
+          <div class="stat">
+            <div class="stat__value">4.9</div>
+            <div class="stat__label">Средняя оценка</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">98%</div>
+            <div class="stat__label">Рекомендуют нас</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-3">
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Спокойно, профессионально, без спешки. Программа чек-апа дала чёткую картину здоровья и на что обратить внимание.»</blockquote>
+            <p class="testimonial-card__author">Светлана М.</p>
+            <p class="testimonial-card__meta">Профилактический чек-ап · март 2025</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Беспокоился из-за симптомов со стороны сердца. Виноградов всё объяснил и назначил дообследование в ту же неделю.»</blockquote>
+            <p class="testimonial-card__author">Роберт Т.</p>
+            <p class="testimonial-card__meta">Кардиология · февраль 2025</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Вся семья ходит в Меридиан — терапевт, педиатр, дерматолог. Чувствуется, что нас знают в одном месте.»</blockquote>
+            <p class="testimonial-card__author">Елена Л.</p>
+            <p class="testimonial-card__meta">Семейное обслуживание · февраль 2025</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«В регистратуре помогли с выбором времени. Врач уделил время ответам на вопросы. Никакой спешки.»</blockquote>
+            <p class="testimonial-card__author">Яков К.</p>
+            <p class="testimonial-card__meta">Приём терапевта · январь 2025</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Цены озвучили заранее. Пришёл, зная сумму. Отчёт по чек-апу подробный и полезный.»</blockquote>
+            <p class="testimonial-card__author">Давид П.</p>
+            <p class="testimonial-card__meta">Экспресс чек-ап · январь 2025</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Дочка переживала из-за кожи. Чжан была очень тактична и объяснила лечение так, что ребёнок понял.»</blockquote>
+            <p class="testimonial-card__author">Людмила Х.</p>
+            <p class="testimonial-card__meta">Детская дерматология · декабрь 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Познакомьтесь с Меридиан Медикал</h2>
+          <p class="cta-block__desc">Запишитесь на приём и узнайте, почему нас рекомендуют.</p>
+          <a href="contact.html#booking" class="btn btn--primary btn--lg">Записаться на приём</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav"><h4>Клиника</h4><ul><li><a href="about.html">О клинике</a></li><li><a href="services.html">Услуги</a></li><li><a href="doctors.html">Врачи</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+        <div class="footer-nav"><h4>Пациентам</h4><ul><li><a href="pricing.html">Цены</a></li><li><a href="faq.html">Вопросы и ответы</a></li><li><a href="reviews.html">Отзывы</a></li><li><a href="blog.html">Блог</a></li></ul></div>
+        <div class="footer-nav"><h4>Контакты</h4><ul><li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li><li>ул. Тверская, 12, стр. 1, Москва, 125009</li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div><a href="#">Политика конфиденциальности</a><span style="margin: 0 var(--space-2);">·</span><a href="#">Пользовательское соглашение</a></div>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

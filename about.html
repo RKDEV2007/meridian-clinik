@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Наша история, миссия и ценности. Меридиан Медикал — частная клиника, ориентированная на пациента, в Москве.">
+  <title>О нас | Меридиан Медикал</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item"><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__sep">/</span>
+          <span class="breadcrumbs__current">О клинике</span>
+        </nav>
+        <h1 class="page-hero__title">О клинике Меридиан Медикал</h1>
+        <p class="section-desc" style="margin-bottom: 0; max-width: 36rem;">Мы — частный медицинский центр, ориентированный на пациента, где высокий уровень медицины сочетается со спокойной современной обстановкой.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items: center; gap: var(--space-12);">
+          <div class="reveal">
+            <span class="section-label">Наша история</span>
+            <h2 class="section-title">Пациент в центре внимания</h2>
+            <p>Меридиан Медикал был создан с простой идеей: частная медицина должна быть персональной, понятной и согласованной. Мы объединили консультантов и терапевтов, которые разделяют приверженность профилактике и ясной коммуникации.</p>
+            <p>Сегодня мы предлагаем многопрофильную помощь под одной крышей — от терапии и педиатрии до кардиологии, неврологии, дерматологии и гинекологии — при поддержке собственной диагностики и программ чек-ап.</p>
+          </div>
+          <div class="reveal">
+            <img src="images/p8.jpg" alt="Интерьер клиники Меридиан Медикал" style="border-radius: var(--radius-xl); box-shadow: var(--shadow-lg);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Наш подход</span>
+          <h2 class="section-title">Миссия и ценности</h2>
+        </header>
+        <div class="grid-3">
+          <div class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◇</div>
+            <h3 class="service-card__title">Пациент прежде всего</h3>
+            <p class="service-card__desc">Каждое решение — от длительности приёма до дальнейшего наблюдения — ориентировано на ваш комфорт и понимание.</p>
+          </div>
+          <div class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◆</div>
+            <h3 class="service-card__title">Профилактика и ясность</h3>
+            <p class="service-card__desc">Мы делаем акцент на раннем выявлении и понятных объяснениях, чтобы вы могли осознанно выбирать заботу о здоровье.</p>
+          </div>
+          <div class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">♥</div>
+            <h3 class="service-card__title">Согласованная помощь</h3>
+            <p class="service-card__desc">Ваш терапевт и специалисты работают с единой историей и общаются между собой — вам не нужно повторять историю болезни.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Вехи</span>
+          <h2 class="section-title">Наш путь</h2>
+        </header>
+        <div class="grid-2" style="gap: var(--space-10);">
+          <div class="reveal">
+            <p class="stat__value" style="color: var(--color-accent); font-size: var(--text-2xl);">2010</p>
+            <h3>Основание</h3>
+            <p>Меридиан Медикал открывается на Тверской с небольшой командой терапевтов и двумя консультативными специальностями.</p>
+          </div>
+          <div class="reveal">
+            <p class="stat__value" style="color: var(--color-accent); font-size: var(--text-2xl);">2015</p>
+            <h3>Расширение</h3>
+            <p>Собственная лаборатория и партнёрства по визуальной диагностике. Введение программ чек-ап.</p>
+          </div>
+          <div class="reveal">
+            <p class="stat__value" style="color: var(--color-accent); font-size: var(--text-2xl);">2020</p>
+            <h3>Многопрофильность</h3>
+            <p>Полный спектр специальностей под одной крышей. Диагностика в день обращения и согласованные маршруты лечения.</p>
+          </div>
+          <div class="reveal">
+            <p class="stat__value" style="color: var(--color-accent); font-size: var(--text-2xl);">Сегодня</p>
+            <h3>Постоянное развитие</h3>
+            <p>Инвестиции в технологии, обучение и качество обслуживания. Признание за качество и удовлетворённость пациентов.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Качество</span>
+          <h2 class="section-title">Аккредитации и стандарты</h2>
+          <p class="section-desc">Мы соблюдаем высокие стандарты клинического и организационного качества.</p>
+        </header>
+        <div class="grid-4" style="text-align: center;">
+          <div class="reveal">
+            <div style="width: 5rem; height: 5rem; margin: 0 auto var(--space-4); background: var(--color-border-light); border-radius: var(--radius-lg);"></div>
+            <p style="font-weight: 600; margin-bottom: 0;">Лицензия Минздрава</p>
+          </div>
+          <div class="reveal">
+            <div style="width: 5rem; height: 5rem; margin: 0 auto var(--space-4); background: var(--color-border-light); border-radius: var(--radius-lg);"></div>
+            <p style="font-weight: 600; margin-bottom: 0;">ISO 9001</p>
+          </div>
+          <div class="reveal">
+            <div style="width: 5rem; height: 5rem; margin: 0 auto var(--space-4); background: var(--color-border-light); border-radius: var(--radius-lg);"></div>
+            <p style="font-weight: 600; margin-bottom: 0;">Страхование ответственности</p>
+          </div>
+          <div class="reveal">
+            <div style="width: 5rem; height: 5rem; margin: 0 auto var(--space-4); background: var(--color-border-light); border-radius: var(--radius-lg);"></div>
+            <p style="font-weight: 600; margin-bottom: 0;">Защита данных</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Записаться на визит</h2>
+          <p class="cta-block__desc">Нужна разовая консультация или полный чек-ап — мы готовы помочь.</p>
+          <a href="contact.html#booking" class="btn btn--primary btn--lg">Записаться на приём</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav"><h4>Клиника</h4><ul><li><a href="about.html">О клинике</a></li><li><a href="services.html">Услуги</a></li><li><a href="doctors.html">Врачи</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+        <div class="footer-nav"><h4>Пациентам</h4><ul><li><a href="pricing.html">Цены</a></li><li><a href="faq.html">Вопросы и ответы</a></li><li><a href="reviews.html">Отзывы</a></li><li><a href="blog.html">Блог</a></li></ul></div>
+        <div class="footer-nav"><h4>Контакты</h4><ul><li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li><li>ул. Тверская, 12, стр. 1, Москва, 125009</li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div><a href="#">Политика конфиденциальности</a><span style="margin: 0 var(--space-2);">·</span><a href="#">Пользовательское соглашение</a></div>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

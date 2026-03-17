@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Медицинские услуги в Меридиан Медикал: терапия, кардиология, неврология, дерматология, диагностика, чек-апы и другое.">
+  <title>Услуги | Меридиан Медикал</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item"><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__sep">/</span>
+          <span class="breadcrumbs__current">Услуги</span>
+        </nav>
+        <h1 class="page-hero__title">Наши услуги</h1>
+        <p class="section-desc" style="margin-bottom: 0; max-width: 36rem;">От терапии до специализированной помощи и диагностики — всё в одном месте.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Специальности</span>
+          <h2 class="section-title">Консультации и лечение</h2>
+        </header>
+        <div class="grid-3">
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◆</div>
+            <h3 class="service-card__title">Терапия</h3>
+            <p class="service-card__desc">Приём терапевта, семейная медицина, острые и хронические заболевания, при необходимости — направление к нашим специалистам.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Записаться</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">♥</div>
+            <h3 class="service-card__title">Кардиология</h3>
+            <p class="service-card__desc">Оценка состояния сердца, ЭКГ, ЭхоКГ и постоянное кардиологическое наблюдение у врачей-кардиологов.</p>
+            <a href="service-cardiology.html" class="btn btn--ghost">Подробнее</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◇</div>
+            <h3 class="service-card__title">Неврология</h3>
+            <p class="service-card__desc">Диагностика и ведение головных болей, головокружения, когнитивных нарушений и других неврологических состояний.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Записаться</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">○</div>
+            <h3 class="service-card__title">Гинекология</h3>
+            <p class="service-card__desc">Женское здоровье, плановые осмотры и специализированная гинекологическая помощь в комфортных условиях.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Записаться</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">▸</div>
+            <h3 class="service-card__title">Педиатрия</h3>
+            <p class="service-card__desc">Осмотры детей, вакцинация, острые состояния. Доброжелательная обстановка и опытные педиатры.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Записаться</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">□</div>
+            <h3 class="service-card__title">Дерматология</h3>
+            <p class="service-card__desc">Лечебная и косметологическая дерматология для взрослых и детей. Осмотры кожи, родинок, лечение.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Записаться</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="diagnostics">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Диагностика</span>
+          <h2 class="section-title">Анализы и визуальная диагностика</h2>
+          <p class="section-desc">Собственные и партнёрские возможности. Результаты обсуждаем с вами лично.</p>
+        </header>
+        <div class="grid-3">
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◉</div>
+            <h3 class="service-card__title">Лабораторные анализы</h3>
+            <p class="service-card__desc">Анализы крови, мочи и другие. Результаты в тот же или следующий день, где возможно.</p>
+            <a href="pricing.html#lab" class="btn btn--ghost">Цены</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◎</div>
+            <h3 class="service-card__title">УЗИ</h3>
+            <p class="service-card__desc">УЗИ органов брюшной полости, сердца, сосудов и другое. По направлению наших врачей или вашего терапевта.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Записаться</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◐</div>
+            <h3 class="service-card__title">МРТ и КТ</h3>
+            <p class="service-card__desc">Направляем в проверенные центры. Врач просматривает снимки и обсуждает результаты с вами.</p>
+            <a href="contact.html#booking" class="btn btn--ghost">Узнать</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Программы чек-ап</h2>
+          <p class="cta-block__desc">Профилактические пакеты с учётом возраста и образа жизни. Включены отчёт и план дальнейших действий.</p>
+          <a href="checkup-packages.html" class="btn btn--primary btn--lg">Смотреть программы</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav"><h4>Клиника</h4><ul><li><a href="about.html">О клинике</a></li><li><a href="services.html">Услуги</a></li><li><a href="doctors.html">Врачи</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+        <div class="footer-nav"><h4>Пациентам</h4><ul><li><a href="pricing.html">Цены</a></li><li><a href="faq.html">Вопросы и ответы</a></li><li><a href="reviews.html">Отзывы</a></li><li><a href="blog.html">Блог</a></li></ul></div>
+        <div class="footer-nav"><h4>Контакты</h4><ul><li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li><li>ул. Тверская, 12, стр. 1, Москва, 125009</li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div><a href="#">Политика конфиденциальности</a><span style="margin: 0 var(--space-2);">·</span><a href="#">Пользовательское соглашение</a></div>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

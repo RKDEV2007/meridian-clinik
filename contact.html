@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Свяжитесь с Меридиан Медикал и запишитесь на приём. Адрес, телефон, часы работы и форма онлайн-записи.">
+  <title>Контакты и запись | Меридиан Медикал</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item"><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__sep">/</span>
+          <span class="breadcrumbs__current">Контакты</span>
+        </nav>
+        <h1 class="page-hero__title">Контакты и запись</h1>
+        <p class="section-desc" style="margin-bottom: 0; max-width: 36rem;">Позвоните нам или заполните форму ниже для записи на приём. Мы подтвердим визит и пришлём рекомендации по подготовке.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="gap: var(--space-12); align-items: start;">
+          <div class="reveal">
+            <h2 style="margin-top: 0;">Контактные данные</h2>
+            <p><strong>Телефон</strong><br><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+            <p><strong>Адрес</strong><br>ул. Тверская, 12, стр. 1<br>Москва, 125009</p>
+            <p><strong>Часы работы</strong><br>Понедельник–пятница 8:00–20:00<br>Суббота 9:00–14:00<br>Воскресенье — выходной</p>
+            <p><strong>Транспорт и парковка</strong><br>Ближайшее метро: Тверская, Пушкинская, Чеховская. Платная парковка на улице и рядом. Можем подсказать маршрут по запросу.</p>
+            <div style="margin-top: var(--space-6); padding: var(--space-4); background: var(--color-accent-muted); border-radius: var(--radius-lg);">
+              <p style="margin: 0; font-size: var(--text-sm);"><strong>В экстренных случаях</strong> звоните 103 или обратитесь в ближайшую скорую/приёмный покой. Форма предназначена только для плановой записи.</p>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div style="aspect-ratio: 4/3; background: var(--color-border-light); border-radius: var(--radius-xl); display: flex; align-items: center; justify-content: center; color: var(--color-text-light);">
+              Карта — здесь можно встроить карту расположения клиники
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="booking">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Заявка на приём</span>
+          <h2 class="section-title">Записаться на приём</h2>
+          <p class="section-desc">Заполните форму ниже. Мы свяжемся с вами для подтверждения даты, времени и специалиста. Поля со * обязательны.</p>
+        </header>
+        <div style="max-width: 32rem; margin: 0 auto;">
+          <form class="reveal" data-no-submit="true" action="#" method="post" id="booking-form">
+            <div class="form-group">
+              <label for="booking-name" class="form-label">ФИО *</label>
+              <input type="text" id="booking-name" class="form-input" name="name" required placeholder="Ваше полное имя">
+            </div>
+            <div class="form-group">
+              <label for="booking-phone" class="form-label">Телефон *</label>
+              <input type="tel" id="booking-phone" class="form-input" name="phone" required placeholder="+7 ...">
+            </div>
+            <div class="form-group">
+              <label for="booking-email" class="form-label">Email *</label>
+              <input type="email" id="booking-email" class="form-input" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="booking-date" class="form-label">Желаемая дата</label>
+              <input type="date" id="booking-date" class="form-input" name="preferred_date">
+              <p class="form-hint">Мы постараемся учесть; администратор подтвердит доступность.</p>
+            </div>
+            <div class="form-group">
+              <label for="booking-specialty" class="form-label">Специальность / тип визита</label>
+              <select id="booking-specialty" class="form-select" name="specialty">
+                <option value="">Выберите...</option>
+                <option value="gp">Терапия</option>
+                <option value="cardiology">Кардиология</option>
+                <option value="neurology">Неврология</option>
+                <option value="dermatology">Дерматология</option>
+                <option value="gynaecology">Гинекология</option>
+                <option value="paediatrics">Педиатрия</option>
+                <option value="checkup">Программа чек-ап</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="booking-doctor" class="form-label">Предпочтительный врач (необязательно)</label>
+              <select id="booking-doctor" class="form-select" name="doctor">
+                <option value="">Без предпочтений</option>
+                <option value="vinogradov">Дмитрий Виноградов</option>
+                <option value="mitchell">Дмитрий Митрофанов</option>
+                <option value="chen">Софья Чжан</option>
+                <option value="okonkwo">Давид Оконкво</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="booking-message" class="form-label">Сообщение</label>
+              <textarea id="booking-message" class="form-textarea" name="message" placeholder="Кратко укажите причину визита или вопросы..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg" style="width: 100%;">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Частые вопросы о записи</h2>
+        <div class="faq-item reveal">
+          <button type="button" class="faq-trigger">Как быстро можно записаться?</button>
+          <div class="faq-content">
+            <div class="faq-content__inner">Часто есть места на тот же или следующий день к терапевту и части специалистов. К консультантам обычно в течение недели. Срочные случаи приоритетны.</div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button type="button" class="faq-trigger">Нужно ли направление?</button>
+          <div class="faq-content">
+            <div class="faq-content__inner">Нет. Записаться к нам можно напрямую по большинству специальностей. Для ДМС страховой компании может потребоваться направление — подскажем при обращении.</div>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button type="button" class="faq-trigger">Что взять с собой?</button>
+          <div class="faq-content">
+            <div class="faq-content__inner">Возьмите паспорт и список текущих препаратов. Если есть предыдущие анализы или выписки — они пригодятся. Подготовку (например, натощак) уточним при подтверждении записи.</div>
+          </div>
+        </div>
+        <p style="margin-top: var(--space-6);"><a href="faq.html">Все вопросы и ответы</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Предпочитаете позвонить?</h2>
+          <p class="cta-block__desc">Администраторы работают в часы работы клиники — запишут и ответят на вопросы.</p>
+          <a href="tel:+74951234567" class="btn btn--primary btn--lg">+7 (495) 123-45-67</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav"><h4>Клиника</h4><ul><li><a href="about.html">О клинике</a></li><li><a href="services.html">Услуги</a></li><li><a href="doctors.html">Врачи</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+        <div class="footer-nav"><h4>Пациентам</h4><ul><li><a href="pricing.html">Цены</a></li><li><a href="faq.html">Вопросы и ответы</a></li><li><a href="reviews.html">Отзывы</a></li><li><a href="blog.html">Блог</a></li></ul></div>
+        <div class="footer-nav"><h4>Контакты</h4><ul><li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li><li>ул. Тверская, 12, стр. 1, Москва, 125009</li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div><a href="#">Политика конфиденциальности</a><span style="margin: 0 var(--space-2);">·</span><a href="#">Пользовательское соглашение</a></div>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

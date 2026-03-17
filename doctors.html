@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Наши специалисты в Меридиан Медикал. Опытные врачи: кардиология, терапия, дерматология, неврология и другие направления.">
+  <title>Наши врачи | Меридиан Медикал</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item"><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__sep">/</span>
+          <span class="breadcrumbs__current">Врачи</span>
+        </nav>
+        <h1 class="page-hero__title">Наши специалисты</h1>
+        <p class="section-desc" style="margin-bottom: 0; max-width: 36rem;">Опытные консультанты и терапевты работают вместе и обеспечивают согласованную качественную помощь.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="reveal" style="margin-bottom: var(--space-8);">
+          <label for="specialty-filter" class="form-label">Фильтр по специальности</label>
+          <select id="specialty-filter" class="form-select" style="max-width: 16rem;">
+            <option value="">Все специальности</option>
+            <option value="cardiology">Кардиология</option>
+            <option value="gp">Терапия</option>
+            <option value="dermatology">Дерматология</option>
+            <option value="neurology">Неврология</option>
+            <option value="paediatrics">Педиатрия</option>
+            <option value="gynaecology">Гинекология</option>
+          </select>
+        </div>
+        <div class="grid-4">
+          <article class="card doctor-card reveal" data-specialty="cardiology">
+            <div class="card__media">
+              <img src="images/p2.jpg" alt="Дмитрий Виноградов">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Дмитрий Виноградов</h3>
+              <p class="doctor-card__specialty">Кардиология</p>
+              <p class="doctor-card__bio">Врач-кардиолог. 15+ лет. Профилактическая и интервенционная кардиология.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal" data-specialty="gp">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80" alt="Дмитрий Митрофанов">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Дмитрий Митрофанов</h3>
+              <p class="doctor-card__specialty">Терапия</p>
+              <p class="doctor-card__bio">Терапевт, руководитель направления семейной медицины. Профилактика и долгосрочное ведение пациентов.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal" data-specialty="dermatology">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Софья Чжан">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Софья Чжан</h3>
+              <p class="doctor-card__specialty">Дерматология</p>
+              <p class="doctor-card__bio">Врач-дерматолог. Лечебная и косметологическая дерматология для взрослых и детей.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal" data-specialty="neurology">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&q=80" alt="Давид Оконкво">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Давид Оконкво</h3>
+              <p class="doctor-card__specialty">Неврология</p>
+              <p class="doctor-card__bio">Врач-невролог. Головные боли, головокружение, когнитивная диагностика.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal" data-specialty="paediatrics">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=400&q=80" alt="Анна Ковалёва">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Анна Ковалёва</h3>
+              <p class="doctor-card__specialty">Педиатрия</p>
+              <p class="doctor-card__bio">Врач-педиатр. Здоровье детей, вакцинация, профилактические осмотры.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal" data-specialty="gynaecology">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&q=80" alt="Раиса Фёдорова">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Раиса Фёдорова</h3>
+              <p class="doctor-card__specialty">Гинекология</p>
+              <p class="doctor-card__bio">Врач-гинеколог. Женское здоровье, скрининги и специализированная помощь.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Записаться к специалисту</h2>
+          <p class="cta-block__desc">Опишите задачу — подберём врача и удобное время.</p>
+          <a href="contact.html#booking" class="btn btn--primary btn--lg">Записаться на приём</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav"><h4>Клиника</h4><ul><li><a href="about.html">О клинике</a></li><li><a href="services.html">Услуги</a></li><li><a href="doctors.html">Врачи</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+        <div class="footer-nav"><h4>Пациентам</h4><ul><li><a href="pricing.html">Цены</a></li><li><a href="faq.html">Вопросы и ответы</a></li><li><a href="reviews.html">Отзывы</a></li><li><a href="blog.html">Блог</a></li></ul></div>
+        <div class="footer-nav"><h4>Контакты</h4><ul><li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li><li>ул. Тверская, 12, стр. 1, Москва, 125009</li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div><a href="#">Политика конфиденциальности</a><span style="margin: 0 var(--space-2);">·</span><a href="#">Пользовательское соглашение</a></div>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('specialty-filter')?.addEventListener('change', function() {
+      var val = this.value;
+      document.querySelectorAll('.doctor-card').forEach(function(card) {
+        card.style.display = (!val || card.getAttribute('data-specialty') === val) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>

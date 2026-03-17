@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Меридиан Медикал — премиальная частная клиника. Многопрофильная помощь, диагностика и профилактическая медицина в спокойной современной обстановке.">
+  <title>Меридиан Медикал — Частная клиника | Премиальное здравоохранение</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+
+  <!-- Верхняя строка: телефон, адрес, часы работы -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item">
+          <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+        </span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Шапка: логотип, навигация, кнопка записи -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Главный блок -->
+    <section class="hero hero--split">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Частная медицина, где на первом месте — <strong>вы</strong></h1>
+          <p class="hero__text">Многопрофильный медицинский центр, где профилактика, диагностика и специализированная помощь сочетаются со спокойной современной обстановкой.</p>
+          <div class="hero__actions">
+            <a href="contact.html#booking" class="btn btn--primary btn--lg">Записаться на приём</a>
+            <a href="services.html" class="btn btn--secondary btn--lg">Услуги</a>
+          </div>
+        </div>
+        <div class="hero__media">
+          <img src="images/p1.jpg" alt="Современный кабинет приёма в клинике Меридиан Медикал">
+        </div>
+      </div>
+    </section>
+
+    <!-- Показатели доверия -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="stats-grid reveal">
+          <div class="stat">
+            <div class="stat__value">15+</div>
+            <div class="stat__label">Лет заботы о пациентах</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">12</div>
+            <div class="stat__label">Специальностей</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">25+</div>
+            <div class="stat__label">Специалистов</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value">98%</div>
+            <div class="stat__label">Довольных пациентов</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Основные услуги -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Что мы предлагаем</span>
+          <h2 class="section-title">Наши услуги</h2>
+          <p class="section-desc">От общей практики до диагностики и узких специалистов — комплексная частная медицинская помощь под одной крышей.</p>
+        </header>
+        <div class="grid-3">
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">♥</div>
+            <h3 class="service-card__title">Кардиология</h3>
+            <p class="service-card__desc">Проверка сердца, ЭКГ, ЭхоКГ и постоянное кардиологическое наблюдение у наших врачей-кардиологов.</p>
+            <a href="service-cardiology.html" class="btn btn--ghost">Подробнее</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◆</div>
+            <h3 class="service-card__title">Диагностика и лаборатория</h3>
+            <p class="service-card__desc">Анализы крови, УЗИ, направление на МРТ и КТ, результаты в тот же день при необходимости.</p>
+            <a href="services.html#diagnostics" class="btn btn--ghost">Подробнее</a>
+          </article>
+          <article class="card service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">◇</div>
+            <h3 class="service-card__title">Программы чек-ап</h3>
+            <p class="service-card__desc">Структурированные профилактические программы с учётом возраста, образа жизни и семейного анамнеза.</p>
+            <a href="checkup-packages.html" class="btn btn--ghost">Подробнее</a>
+          </article>
+        </div>
+        <p style="text-align: center; margin-top: var(--space-8);">
+          <a href="services.html" class="btn btn--secondary">Все услуги</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Почему мы -->
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Почему Меридиан</span>
+          <h2 class="section-title">Почему выбирают нас</h2>
+          <p class="section-desc">Мы сочетаем высокий уровень медицины с внимательным персональным подходом — чтобы <strong>вы</strong> чувствовали себя услышанными и в надёжных руках.</p>
+        </header>
+        <div class="grid-2">
+          <div class="reveal">
+            <h3 class="card__title">Ориентация на пациента</h3>
+            <p>Ваше время и комфорт важны. Мы назначаем более длительные приёмы при необходимости и координируем работу специалистов за вас.</p>
+          </div>
+          <div class="reveal">
+            <h3 class="card__title">Современная диагностика</h3>
+            <p>Собственная лаборатория и диагностика, а также партнёрство с ведущими центрами. Результаты разбираем с вами лично.</p>
+          </div>
+          <div class="reveal">
+            <h3 class="card__title">Профилактика прежде всего</h3>
+            <p>Структурированные чек-апы и планы здоровья помогают выявить проблемы на ранней стадии и поддерживать долгосрочное благополучие.</p>
+          </div>
+          <div class="reveal">
+            <h3 class="card__title">Прозрачные цены</h3>
+            <p>Понятная информация о стоимости до визита. Работаем с ДМС и предоставляем детальные счета.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Врачи -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Наша команда</span>
+          <h2 class="section-title">Наши специалисты</h2>
+          <p class="section-desc">Опытные консультанты и терапевты, которые работают вместе и обеспечивают согласованную качественную помощь.</p>
+        </header>
+        <div class="grid-4">
+          <article class="card doctor-card reveal">
+            <div class="card__media">
+              <img src="images/p2.jpg" alt="Дмитрий Виноградов, кардиолог">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Дмитрий Виноградов</h3>
+              <p class="doctor-card__specialty">Кардиология</p>
+              <p class="doctor-card__bio">Врач-кардиолог с опытом более 15 лет в профилактической и интервенционной кардиологии.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal">
+            <div class="card__media">
+              <img src="images/p3.jpg" alt="Дмитрий Митрофанов, терапия">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Дмитрий Митрофанов</h3>
+              <p class="doctor-card__specialty">Терапия</p>
+              <p class="doctor-card__bio">Терапевт, руководитель направления семейной медицины. Фокус на профилактике и долгосрочном ведении пациентов.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal">
+            <div class="card__media">
+              <img src="images/p4.jpg" alt="Софья Чжан, дерматология">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Софья Чжан</h3>
+              <p class="doctor-card__specialty">Дерматология</p>
+              <p class="doctor-card__bio">Врач-дерматолог, специализация — лечебная и косметологическая дерматология для взрослых и детей.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+          <article class="card doctor-card reveal">
+            <div class="card__media">
+              <img src="images/p5.jpg" alt="Давид Оконкво, неврология">
+            </div>
+            <div class="card__body">
+              <h3 class="doctor-card__name">Давид Оконкво</h3>
+              <p class="doctor-card__specialty">Неврология</p>
+              <p class="doctor-card__bio">Врач-невролог, специализация — головные боли, головокружение и когнитивная диагностика.</p>
+              <a href="doctor-profile.html" class="btn btn--ghost">Профиль врача</a>
+            </div>
+          </article>
+        </div>
+        <p style="text-align: center; margin-top: var(--space-8);">
+          <a href="doctors.html" class="btn btn--secondary">Все врачи</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Программы чек-ап -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="grid-2" style="align-items: center; gap: var(--space-12);">
+          <div class="reveal">
+            <span class="section-label">Профилактика</span>
+            <h2 class="section-title">Программы чек-ап</h2>
+            <p class="section-desc">Программы составлены с учётом возраста, образа жизни и семейного анамнеза. Вы получаете понятный отчёт и персональный план дальнейших действий.</p>
+            <a href="checkup-packages.html" class="btn btn--primary">Смотреть программы</a>
+          </div>
+          <div class="reveal">
+            <div class="gallery-grid" style="grid-template-columns: repeat(2, 1fr);">
+              <div class="gallery-grid__item">
+                <img src="images/p6.jpg" alt="Лабораторные исследования">
+              </div>
+              <div class="gallery-grid__item">
+                <img src="images/p7.jpg" alt="Консультация врача">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Как проходит визит -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Ваш визит</span>
+          <h2 class="section-title">Как проходит приём</h2>
+        </header>
+        <div class="grid-4">
+          <div class="reveal" style="text-align: center;">
+            <div class="stat__value" style="color: var(--color-accent);">1</div>
+            <h4>Запись</h4>
+            <p style="margin-bottom: 0;">Позвоните или заполните форму на сайте. Мы подберём время и специалиста.</p>
+          </div>
+          <div class="reveal" style="text-align: center;">
+            <div class="stat__value" style="color: var(--color-accent);">2</div>
+            <h4>Визит</h4>
+            <p style="margin-bottom: 0;">Вас встретят в регистратуре. Возьмите паспорт и предыдущие результаты при наличии.</p>
+          </div>
+          <div class="reveal" style="text-align: center;">
+            <div class="stat__value" style="color: var(--color-accent);">3</div>
+            <h4>Приём</h4>
+            <p style="margin-bottom: 0;">Врач выслушает вас, проведёт осмотр и обсудит дальнейшие шаги.</p>
+          </div>
+          <div class="reveal" style="text-align: center;">
+            <div class="stat__value" style="color: var(--color-accent);">4</div>
+            <h4>Дальнейшие шаги</h4>
+            <p style="margin-bottom: 0;">Организуем анализы, направления и повторные приёмы при необходимости.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Отзывы</span>
+          <h2 class="section-title">Что говорят пациенты</h2>
+        </header>
+        <div class="grid-3">
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Спокойно, профессионально, без спешки. Программа чек-апа дала чёткую картину здоровья и на что обратить внимание.»</blockquote>
+            <p class="testimonial-card__author">Светлана М.</p>
+            <p class="testimonial-card__meta">Профилактический чек-ап</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Беспокоился из-за симптомов со стороны сердца. Виноградов всё объяснил и назначил дообследование в ту же неделю.»</blockquote>
+            <p class="testimonial-card__author">Роберт Т.</p>
+            <p class="testimonial-card__meta">Кардиология</p>
+          </div>
+          <div class="card testimonial-card reveal">
+            <blockquote class="testimonial-card__quote">«Вся семья ходит в Меридиан — терапевт, педиатр, дерматолог. Чувствуется, что нас знают в одном месте.»</blockquote>
+            <p class="testimonial-card__author">Елена Л.</p>
+            <p class="testimonial-card__meta">Семейное обслуживание</p>
+          </div>
+        </div>
+        <p style="text-align: center; margin-top: var(--space-6);">
+          <a href="reviews.html" class="btn btn--ghost">Читать все отзывы</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Вопросы и ответы</span>
+          <h2 class="section-title">Частые вопросы</h2>
+        </header>
+        <div class="grid-2" style="max-width: 50rem; margin: 0 auto;">
+          <div class="faq-item reveal">
+            <button type="button" class="faq-trigger" aria-expanded="false">Нужно ли направление?</button>
+            <div class="faq-content">
+              <div class="faq-content__inner">Нет. Записаться к нам можно напрямую по большинству специальностей. Для оплаты по ДМС страховой компании может потребоваться направление от терапевта.</div>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button type="button" class="faq-trigger" aria-expanded="false">Часы работы клиники?</button>
+            <div class="faq-content">
+              <div class="faq-content__inner">Мы работаем понедельник–пятница 8:00–20:00 и суббота 9:00–14:00. Запись в тот же день часто возможна.</div>
+            </div>
+          </div>
+        </div>
+        <p style="text-align: center; margin-top: var(--space-6);">
+          <a href="faq.html" class="btn btn--ghost">Все вопросы и ответы</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Призыв к действию -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Готовы записаться на приём?</h2>
+          <p class="cta-block__desc">Позвоните нам или заполните форму записи. Мы подтвердим визит и пришлём рекомендации по подготовке.</p>
+          <a href="contact.html#booking" class="btn btn--primary btn--lg">Записаться</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Клиника</h4>
+          <ul>
+            <li><a href="about.html">О клинике</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="doctors.html">Врачи</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>Пациентам</h4>
+          <ul>
+            <li><a href="pricing.html">Цены</a></li>
+            <li><a href="faq.html">Вопросы и ответы</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="blog.html">Блог</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+            <li>ул. Тверская, 12, стр. 1, Москва, 125009</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div>
+          <a href="#">Политика конфиденциальности</a>
+          <span style="margin: 0 var(--space-2);">·</span>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

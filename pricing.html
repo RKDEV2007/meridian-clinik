@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Прозрачные цены на консультации, диагностику и программы чек-ап в Меридиан Медикал.">
+  <title>Цены | Меридиан Медикал</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Перейти к основному содержимому</a>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="topbar__item"><a href="tel:+74951234567">+7 (495) 123-45-67</a></span>
+        <span class="topbar__item">ул. Тверская, 12, стр. 1, Москва, 125009</span>
+      </div>
+      <div class="topbar__right">
+        <span class="topbar__item">Пн–Пт 8:00–20:00, Сб 9:00–14:00</span>
+      </div>
+    </div>
+  </div>
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="header-logo">Меридиан Медикал</a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">О клинике</a></li>
+          <li class="nav-item nav-item--dropdown">
+            <a href="services.html" class="nav-link">Услуги</a>
+            <ul class="nav-dropdown">
+              <li><a href="service-cardiology.html">Кардиология</a></li>
+              <li><a href="services.html#diagnostics">Диагностика</a></li>
+              <li><a href="checkup-packages.html">Программы чек-ап</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="doctors.html" class="nav-link">Врачи</a></li>
+          <li class="nav-item"><a href="pricing.html" class="nav-link">Цены</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html#booking" class="btn btn--primary">Записаться на приём</a>
+      <button type="button" class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="breadcrumbs__sep">/</span>
+          <span class="breadcrumbs__current">Цены</span>
+        </nav>
+        <h1 class="page-hero__title">Цены</h1>
+        <p class="section-desc" style="margin-bottom: 0; max-width: 36rem;">Прозрачные цены на консультации, диагностику и программы чек-ап. Итоговая стоимость может меняться в зависимости от плана лечения; мы всегда подтверждаем сумму до оказания услуги.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Популярное</span>
+          <h2 class="section-title">Программы чек-ап</h2>
+          <p class="section-desc">Структурированные пакеты с отчётом и планом дальнейших действий. <a href="checkup-packages.html">Подробнее</a>.</p>
+        </header>
+        <div class="grid-3">
+          <div class="pricing-card reveal">
+            <h3 class="pricing-card__name">Базовый</h3>
+            <p class="pricing-card__price">45 000 ₽</p>
+            <p class="pricing-card__price-note">Разовая оплата</p>
+            <ul class="pricing-card__features">
+              <li>Приём терапевта и сбор анамнеза</li>
+              <li>Базовый анализ крови</li>
+              <li>ЭКГ</li>
+              <li>Письменный отчёт и рекомендации</li>
+            </ul>
+            <a href="contact.html#booking" class="btn btn--secondary" style="width: 100%;">Записаться</a>
+          </div>
+          <div class="pricing-card pricing-card--featured reveal">
+            <span class="badge" style="position: absolute; top: var(--space-4); right: var(--space-4);">Популярный</span>
+            <h3 class="pricing-card__name">Расширенный</h3>
+            <p class="pricing-card__price">85 000 ₽</p>
+            <p class="pricing-card__price-note">Разовая оплата</p>
+            <ul class="pricing-card__features">
+              <li>Всё из пакета «Базовый»</li>
+              <li>Расширенный анализ крови</li>
+              <li>ЭхоКГ</li>
+              <li>Консультация кардиолога</li>
+              <li>Повторная консультация</li>
+            </ul>
+            <a href="contact.html#booking" class="btn btn--primary" style="width: 100%;">Записаться</a>
+          </div>
+          <div class="pricing-card reveal">
+            <h3 class="pricing-card__name">Премиум</h3>
+            <p class="pricing-card__price">145 000 ₽</p>
+            <p class="pricing-card__price-note">Разовая оплата</p>
+            <ul class="pricing-card__features">
+              <li>Всё из пакета «Расширенный»</li>
+              <li>Полная визуальная диагностика (МРТ/КТ по показаниям)</li>
+              <li>Консультации специалистов</li>
+              <li>Детальный отчёт и годовой план</li>
+            </ul>
+            <a href="contact.html#booking" class="btn btn--secondary" style="width: 100%;">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Консультации</span>
+          <h2 class="section-title">Стоимость консультаций</h2>
+        </header>
+        <div class="grid-2" style="max-width: 40rem;">
+          <div class="reveal">
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>Приём терапевта (30 мин)</span><strong>12 000 ₽</strong></p>
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>Приём терапевта расширенный (45 мин)</span><strong>18 000 ₽</strong></p>
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>Консультант (первичный приём)</span><strong>от 22 000 ₽</strong></p>
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>Консультант (повторный приём)</span><strong>от 15 000 ₽</strong></p>
+          </div>
+          <div class="reveal">
+            <p style="margin: 0;">Стоимость зависит от специальности. Точную сумму сообщим при записи. Работаем с ДМС, выдаём счета для самоплатежа.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lab">
+      <div class="container">
+        <header class="section-header reveal">
+          <span class="section-label">Диагностика</span>
+          <h2 class="section-title">Анализы и визуальная диагностика</h2>
+        </header>
+        <div class="grid-2" style="max-width: 40rem;">
+          <div class="reveal">
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>ЭКГ</span><strong>8 000 ₽</strong></p>
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>ЭхоКГ</span><strong>от 28 000 ₽</strong></p>
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>Базовый анализ крови</span><strong>от 9 500 ₽</strong></p>
+            <p style="display: flex; justify-content: space-between; margin-bottom: var(--space-2);"><span>Расширенный анализ крови</span><strong>от 18 000 ₽</strong></p>
+          </div>
+          <div class="reveal">
+            <p style="margin: 0;">МРТ и КТ проводим в партнёрских центрах; стоимость уточним после назначения врача. По многим анализам возможны результаты в тот же день.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-block reveal">
+          <h2 class="cta-block__title">Индивидуальный план лечения</h2>
+          <p class="cta-block__desc">Итоговый план и стоимость зависят от ваших потребностей. Мы всегда подтверждаем сумму до оказания услуги.</p>
+          <a href="contact.html#booking" class="btn btn--primary btn--lg">Записаться на приём</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="header-logo">Меридиан Медикал</a>
+          <p class="footer-desc">Премиальная частная клиника в центре Москвы: многопрофильная помощь, диагностика и профилактическая медицина.</p>
+        </div>
+        <div class="footer-nav"><h4>Клиника</h4><ul><li><a href="about.html">О клинике</a></li><li><a href="services.html">Услуги</a></li><li><a href="doctors.html">Врачи</a></li><li><a href="contact.html">Контакты</a></li></ul></div>
+        <div class="footer-nav"><h4>Пациентам</h4><ul><li><a href="pricing.html">Цены</a></li><li><a href="faq.html">Вопросы и ответы</a></li><li><a href="reviews.html">Отзывы</a></li><li><a href="blog.html">Блог</a></li></ul></div>
+        <div class="footer-nav"><h4>Контакты</h4><ul><li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li><li>ул. Тверская, 12, стр. 1, Москва, 125009</li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p style="margin: 0;">© 2025 Меридиан Медикал. Все права защищены.</p>
+        <div><a href="#">Политика конфиденциальности</a><span style="margin: 0 var(--space-2);">·</span><a href="#">Пользовательское соглашение</a></div>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
